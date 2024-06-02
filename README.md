@@ -14,5 +14,5 @@
 -->Now, in burn function (opposite of mint function) it also have two parameters an address and a value but it destroys Token from specified addresss.
    _address parameter is the address from which tokens will be destroyed or burned and value is the number of token burned. 
     this function have conditionals to check the balance of sender is greater than or equal to the amount that is to be burned and if it is true than it decreases the 
-    total supply and the balance of the given address by a specifies value.
+    total supply and the balance of the given address by a specified value.
     -->So basically this contract implements a simple and basic form of token management , illustrating the concept of mint and burn function in blockchain 
